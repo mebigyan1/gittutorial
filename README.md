@@ -1,2 +1,4 @@
 # gittutorial
-Learning Git Version Control System
+
+## Basic commands for learning Git Version Control System for beginners
+
