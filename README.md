@@ -36,5 +36,5 @@ Suppose you made some changes in a file or some files you just fetched from remo
 But first you need to specify which file or files you want to push by:
 > git add &lt;file-name&gt;  
 If you want to add all the files that is in the local repository (refering to your project directory) you do it by:
-> git add .
+> git add .  
 "." just says you want to add all of the things in the current directory
