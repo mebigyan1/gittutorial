@@ -5,8 +5,8 @@
 First of all lets configure our git for our tutorial. We will just simply add our Name, Email and configure in such a way that git only asks us the credentials for the first time and stores it for future use. So, you will only do this if you are in your own personal devices.
 
 ### **1) Configure git**:
-> git config --global user.name "&lt;Your Name&gt;"
-> git config --global user.email "&lt;Your Email&gt;"
+> git config --global user.name "&lt;Your Name&gt;"  
+> git config --global user.email "&lt;Your Email&gt;"  
 > git config --global credential.helper store
 
 Final command basically stores your credentials after you first enter your credentials to make some remote changes.
@@ -18,8 +18,8 @@ You can work on your projects linking locally and remotely and making changes by
 
 ### **2) Create a new repository locally and pull it from remote repository**:
 Creating a new repository is simple. First you need to create a repository in github and then create a new directory with the same name locally. Then inside that folder you need to run these commands:
-> git init
-> git remote add origin &lt;full-link-of-github-repository&gt;
+> git init  
+> git remote add origin &lt;full-link-of-github-repository&gt;  
 > git pull origin master
 
 First you initialize the git inside your directory or say local repository then you add origin of the remote repository which is the github link to your repository. Finally you pull your repository from remote server which is the github server.
