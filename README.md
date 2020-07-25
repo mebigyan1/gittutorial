@@ -11,7 +11,7 @@ First of all lets configure our git for our tutorial. We will just simply add ou
 
 Final command basically stores your credentials after you first enter your credentials to make some remote changes.
 
-You can work on your projects linking locally and remotely and making changes by two ways:
+**You can work on your projects linking locally and remotely and making changes by two ways:**
 
 ### **1) Clone a repository**:
 > git clone &lt;full-link-of-github-repository&gt;
@@ -30,11 +30,11 @@ Here 'origin' is the alias for the server URL. It is the default alias set by gi
 And you can use following command with new alias to pull the remote repository:
 > git pull &lt;newalias&gt; master
 
-After you have used one of the above methods to have a copy of remote repository you can work on it locally and make edits and commit it to remote repository. Some of the useful commands along with those commands are:
+**After you have used one of the above methods to have a copy of remote repository you can work on it locally and make edits and commit it to remote repository. Some of the useful commands along with those commands are:**
 
 Suppose you made some changes in a file or some files you just fetched from remote repository (just refering to the thing we did in last step). Then you would want to have the same changes in your remote repository. To do that you push your changes to the remote repository.
 But first you need to specify which file or files you want to push by:
-> git add &lt;file-name&gt;
+> git add &lt;file-name&gt;  
 If you want to add all the files that is in the local repository (refering to your project directory) you do it by:
 > git add .
 "." just says you want to add all of the things in the current directory
