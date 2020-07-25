@@ -39,4 +39,14 @@ But first you need to specify which file or files you want to push by:
 If you want to add all the files that is in the local repository (refering to your project directory) you do it by:
 > git add .  
 
-"." just says you want to add all of the things in the current directory
+"." just says you want to add all of the files in the current directory.
+
+Then you need to commit these changes locally. You also need to add a commit message. Both things can be done with the same command by:
+> git commit -m "&lt;Your commit message&gt;"  
+
+-m flag is used for adding commit message.
+
+Finally you need to push your changes to the remote repository by:
+> git push origin master
+
+You need to provide your credentials if this is your first time using git following this tutorial. Once you provide credentials here it will be saved and used for future purpose if you followed from the beginning of this tutorial.
