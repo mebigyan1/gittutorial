@@ -50,3 +50,5 @@ Finally you need to push your changes to the remote repository by:
 > git push origin master
 
 You need to provide your credentials if this is your first time using git following this tutorial. Once you provide credentials here it will be saved and used for future purpose if you followed from the beginning of this tutorial.
+
+This is the basic way to make changes and push it to the remote repository.
